@@ -10,12 +10,14 @@
   <link rel="icon" type="image/x-icon" href="imagenes/Foto1.JPG.jpg"/>
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="scss/styles.css" rel="stylesheet" />
+  
 </head>
 <body id="page-top">
   <!-- Navigation-->
@@ -39,52 +41,89 @@
       </div>
   </nav>
 </head>
-<body>
-    <section class="page-section bg-light" id="team">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Team</h2>
-                <h3 class="section-subheading text-muted">Conocé a nuetros Motivadores.</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="imagenes/profesor-gimnasio-paolo-conde-club-campestre-cali.jpg" alt="Profesor Nahuel, Adrogue , " />
-                        <h4>Nahuel</h4>
-                        <p class="text-muted">Profesor</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="htpps://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="imagenes/unnamed (1).jpg" alt="Prfesora Sandra, adrogue" />
-                        <h4>Sandra</h4>
-                        <p class="text-muted">Profesora</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="imagenes/unnamed.jpg" alt="Profesor Braian, Adrogue" />
-                        <h4>Braian</h4>
-                        <p class="text-muted">Profesor</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://ar.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Nuestro equipos estan listos para ayudarte a mejorar tu calidad de vida.</p></div>
-            </div>
-        </div>
-    </section>
-  <!-- Footer-->
-  <footer class="footer py-4">
+
+<section id="seccion" class="col-md-8">
+    <div class="row">
+<div class="col-xs-6 col-sm-3 col-md-3">
+<div class="thumbnail">
+  <img data-src="holder.js/100%x200" alt="100%x200" src="https://static6.depositphotos.com/1175677/670/i/600/depositphotos_6709913-stock-photo-weights-dumbbells-gym.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+  <div id="caption">
+    <h3>Pesas</h3>
+    <p>Tenemos stock de pesas de 1kg hasta 20 kg.</p>
+    <p><a href="https://www.youtube.com/watch?v=OxoJcgWl6ik" class="btn btn-primary "  role="button">Ver</a>
+      
+    <a href="#" class="btn btn-default producto" precio="20" titulo="Pesas"role="button">Comprar</a></p>
+  </div>
+</div>
+</div>
+
+
+<div class="col-xs-6 col-sm-3 col-md-3">
+<div class="thumbnail">
+  <img data-src="holder.js/100%x200" alt="100%x200" src="https://http2.mlstatic.com/D_NQ_NP_821882-MLA26566314999_122017-O.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+  <div class="caption">
+    <h3>Soga</h3>
+    <p>Este elemento te ayudara a fortalezer brazos, tenemos variedad de colores y tamaños.</p>
+    <p><a href="https://www.youtube.com/watch?v=I2zzgZnd1VI" class="btn btn-primary "  role="button">Ver</a> 
+    <a href="#" class="btn btn-default producto" precio="15" titulo="Soga" role="button">Comprar</a></p>
+  </div>
+</div>
+</div>
+
+
+<div class="col-xs-6 col-sm-3 col-md-3">
+<div class="thumbnail">
+  <img data-src="holder.js/100%x200" alt="100%x200" src="https://m.media-amazon.com/images/I/71xIEPhEHrL._AC_SX425_.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+  <div class="caption">
+    <h2>Guantes</h2>
+    <p>Guantes de entrenamientos , para ayudarte a mejorar el rendimiento y no lastimarte las manos , tenemos talles de L a XXL. </p>
+    <p><a href="https://www.youtube.com/watch?v=YnNYHzMledQ" class="btn btn-primary" role="button">Ver</a> 
+    <a href="#" class="btn btn-default producto" precio="50" titulo="Guantes de Entrenamientos" role="button">Comprar</a></p>
+  </div>
+</div>
+</div>
+
+
+       <div class="col-xs-6 col-sm-3 col-md-3">
+<div class="thumbnail">
+  <img data-src="holder.js/100%x200" alt="100%x200" src="https://deportesonce.com.ar/wp-content/uploads/productos/colchonetas/colchoneta-de-gimnasia-1.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+  <div class="caption">
+    <h3>colchoneta </h3>
+    <p>Colchoneta para hacer yoga y gimnasia , comoda y accesible.</p>
+    <p><a href="https://www.youtube.com/watch?v=XST5Ll_8uSM" class="btn btn-primary" role="button">Ver</a> 
+    <a href="#" class="btn btn-default producto" precio="10" titulo="Colchoneta" role="button">Comprar</a></p>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer py-4">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-4 text-lg-left">Derechos reservados 2021.</div>
@@ -110,5 +149,29 @@
 <script src="assets/mail/contact_me.js"></script>
 <!-- Core theme JS-->
 <script src="js/scripts.js"></script>
+<script>
+    // configuración inicial del carrito 
+    paypal.minicart.render({
+    strings:{
+      button:'Pagar'
+     ,buttonAlt: "Total"
+     ,subtotal: 'Total:'
+     ,empty: 'No hay productos en el carrito'
+    }
+    });
+    // Eventos para agregar productos al carrito
+    
+     $('.producto').click(function(e){
+         e.stopPropagation();
+          paypal.minicart.cart.add({
+          business: 'uhperezoscar@gmail.com', // Cuenta paypal para recibir el dinero
+          item_name: $(this).attr("titulo"),
+           amount: $(this).attr("precio"),
+           currency_code: 'USD',
+          
+          });
+     });
+    
+  </script>
 </body>
 </html>
